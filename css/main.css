@@ -1,0 +1,99 @@
+body {
+  background-color: #999;
+}
+
+.container {
+  width: 100%;
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.hero {
+  background-color: #fff;
+  margin-top: 100px;
+  padding: 30px;
+}
+.hero .lop {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.hero__left__car {
+  background-color: #D9D9D9;
+  color: white;
+  margin: 10px 0;
+  padding: 100px;
+}
+.hero__right__input {
+  padding: 9px 10px;
+  outline: none;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 10px;
+  background-color: #999;
+  color: black;
+  border-radius: 4px;
+  border: none;
+  transition: 0.3s;
+  border: 2px solid transparent;
+}
+.hero__right__input:hover {
+  background-color: transparent;
+  border: 2px solid black;
+}
+.hero__right__title {
+  font-size: 64px;
+  font-weight: 300;
+  padding-bottom: 170px;
+}
+.hero__right #card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero__right #lopp {
+  flex-direction: column;
+}
+.hero__right__span {
+  display: inline-block;
+  width: 100px;
+  padding: 1px;
+  flex-direction: column;
+  background-color: black;
+}
+.hero__right__span__title {
+  width: 100px;
+}
+.hero__right__text {
+  font-size: 34px;
+}
+.hero__right__btn {
+  display: inline-block;
+  margin-left: 22px;
+  padding: 10px 70px;
+  border: none;
+  font-size: 23px;
+  transition: 0.2s;
+  font-weight: 100;
+  background-color: #D5D847;
+  border: 2px solid transparent;
+}
+.hero__right__btn:hover {
+  transition: 0.2s;
+  background-color: transparent;
+  color: black;
+  border-radius: 6px;
+  box-shadow: 3px 5px 5px #D5D847;
+  border: 2px solid #D5D847;
+}
+
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=main.css.map */

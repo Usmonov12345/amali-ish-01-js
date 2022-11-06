@@ -1,0 +1,106 @@
+.hero{
+    background-color:#fff ;
+    margin-top: 100px;
+    padding: 30px;
+  .lop{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+    &__left{
+        &__car{
+            background-color: 
+            #D9D9D9;
+            color: white;
+            margin: 10px 0;
+            padding: 100px;
+        }
+    }
+
+
+    &__right{
+
+
+        &__input{
+            padding: 9px  10px ;
+            outline: none;
+            text-align: center;
+            font-size: 22px;
+            margin-top: 10px;
+            background-color: #999;
+            color: black;
+            border-radius: 4px;
+            border: none;
+            transition: 0.3s;
+            border: 2px solid transparent;
+
+            &:hover{
+                background-color: transparent;
+                border: 2px solid black;
+            }
+
+        }
+
+        &__title{
+            font-size: 64px;
+            font-weight: 300;
+            padding-bottom: 170px;
+        }
+        #card{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #lopp{
+            flex-direction: column;
+        }
+        &__span{
+            display: inline-block;
+            width: 100px;
+            padding: 1px;
+            flex-direction: column;
+            background-color: black;
+            &__title{
+                width: 100px;
+            }
+
+        }
+
+        &__text{
+            font-size: 34px;
+        }
+
+
+        &__btn{
+            display: inline-block;
+            margin-left: 22px;
+            padding: 10px 70px;
+            border: none;
+            font-size: 23px;
+                transition: 0.2s;
+                font-weight: 100;
+                background-color:
+                #D5D847;
+            border: 2px solid transparent;
+
+
+            &:hover{
+                transition: 0.2s;
+             background-color: transparent;
+                color: black;
+                border-radius: 6px;
+                box-shadow: 3px 5px 5px #D5D847;
+            border: 2px solid #D5D847;
+
+            }
+
+        }
+     
+
+       
+    }
+
+
+
+}
